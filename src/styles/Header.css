@@ -1,0 +1,23 @@
+.header{
+    background-color: gray;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.header__left{
+    background-color: black;
+}
+.header__logo{
+    height: 100%;
+    object-fit:contain ;
+    
+
+}
+.header__menu{
+    display: flex;
+}
+
+
+.header__right{
+    background-color: brown;
+}
