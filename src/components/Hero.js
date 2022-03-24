@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/Hero.css';
 import heroImage from "../assets/hero__image.png";
 import CallToAction from './CallToAction';
+import SupportSection from './SupportSection';
 
 function Hero() {
     
@@ -15,8 +16,8 @@ function Hero() {
          <div className='hero__left'>
           <h3 className='hero__topText'>A non-profit organisation</h3>
           <h1 className='hero__mainText'>Lend a hand for less fortunate.</h1>
-          <CallToAction color="red" text="Donate Now"/>
-          <CallToAction color="blue"   text="What we do"/>
+          <CallToAction color="#850505" text="Donate Now"/>
+          <CallToAction color="#6C63FF"   text="What we do"/>
           
 
          </div>
@@ -27,6 +28,9 @@ function Hero() {
 
 
         </div>
+       
+        <SupportSection />
+       
         
     </div>
   )
