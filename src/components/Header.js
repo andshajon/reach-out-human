@@ -1,12 +1,16 @@
 import React from 'react'
 import '../styles/Header.css';
-import logo from "../assets/logoReachOutHuman.png";
+import logo from "../assets/reach-out-human.png";
+import CallToAction from './CallToAction';
 function Header() {
   return (
     <div className='header'>
-      <div className='header__left'>
-        <img className='header__logo' src={logo} alt="reach out human"/>
-      </div>
+     <div className='header__container'>
+
+     
+     
+      <img className='header__logo' src={logo} alt="reach out human"/>
+     
       <div className='header__right'>
         <ul className='header__menu'>
           <li> <a src="#">Home</a></li>
@@ -17,6 +21,8 @@ function Header() {
 
         </ul>
 
+      </div>
+      <CallToAction />
       </div>
     </div>
   )
