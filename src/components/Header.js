@@ -22,7 +22,8 @@ function Header() {
         </ul>
 
       </div>
-      <CallToAction />
+      <CallToAction color="blue" text="Donate"/>
+      
       </div>
     </div>
   )
